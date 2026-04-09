@@ -13,6 +13,12 @@
         "email": "ryan.west@online.nl",
         "role": "Developer"
     }],
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/wainwright-casino/panel"
+      }
+    ],
     "require": {
         "php": "^8.0|^8.1",
         "spatie/laravel-collection-macros": "^7.12.0",
@@ -21,7 +27,7 @@
         "livewire/livewire": "*",
         "ext-zip": "*",
         "ext-curl": "*",
-        "wainwright/panel": "^4.0", 
+        "wainwright/panel": "dev-main", 
         "ext-redis": "*",
         "spatie/laravel-google-fonts": "^1.0",
         "spatie/laravel-package-tools": "^1.13.5",
